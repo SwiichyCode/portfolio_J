@@ -5,7 +5,7 @@
 </script>
 
 <header class="header ">
-	<Logo text="s" />
+	<Logo text="d" />
 	<Nav />
 	<Hamburger />
 </header>
