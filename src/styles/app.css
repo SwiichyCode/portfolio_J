@@ -16,3 +16,17 @@ a:hover {
   color: #64ffda;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+main .global-section h2 {
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 2rem;
+  font-family: "Calibre Regular";
+  color: #a8b2d1;
+  font-weight: bold;
+}

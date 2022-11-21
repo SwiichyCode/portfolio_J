@@ -23,7 +23,6 @@
   .hero-section {
     display: flex;
     flex-direction: column;
-    padding-top: 175px;
     max-width: 64rem /* 1024px */;
     min-height: 100vh;
     margin: 0 auto;
