@@ -1,6 +1,8 @@
 <script>
   import SectionAbout from "./SectionAbout.svelte";
   import SectionHero from "./SectionHero.svelte";
+  import SectionOtherProjects from "./SectionOtherProjects.svelte";
+  import SectionProjects from "./SectionProjects.svelte";
   import SectionWorked from "./SectionWorked.svelte";
 </script>
 
@@ -9,6 +11,8 @@
   <SectionHero />
   <SectionAbout />
   <SectionWorked />
+  <SectionProjects />
+  <SectionOtherProjects />
 </main>
 
 <style lang="scss">

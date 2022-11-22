@@ -1,5 +1,6 @@
 <script>
   import Button from "../Global/Button.svelte";
+  import Popup from "../Global/Popup.svelte";
 
   const items = [
     { text: "Présentation", href: "#" },
@@ -11,6 +12,7 @@
 
 <nav>
   <ul class="header-nav">
+    <li><Popup /></li>
     {#each items as { text, href }, index}
       <li class="nav-list">
         <a {href} class="flex items-center "

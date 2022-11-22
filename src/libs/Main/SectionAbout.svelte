@@ -1,3 +1,5 @@
+<!-- margin: 10px 0px 40px; -->
+
 <section class="about-me global-section" data-sr-id="1">
   <header>
     <h2>À propos</h2>
@@ -37,12 +39,10 @@
 
 <style lang="scss">
   .about-me {
-    margin-left: 20%;
-    .box {
-      max-width: 65%;
-    }
     p {
       margin-bottom: 15px;
+      font-size: var(--fz-lg);
+      font-family: "Calibre Regular";
     }
     ul {
       display: grid;

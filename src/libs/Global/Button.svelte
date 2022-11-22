@@ -1,8 +1,9 @@
 <script>
   export let text;
+  export let size;
 </script>
 
-<button class="btn">
+<button class="btn {size}">
   {text}
 </button>
 
@@ -19,5 +20,9 @@
   .btn:hover {
     background-color: rgba(100, 255, 218, 0.1);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .xl {
+    padding: 18px 24px;
   }
 </style>

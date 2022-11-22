@@ -3,15 +3,26 @@
   import Main from "../libs/Main/Main.svelte";
   import SideLink from "../libs/Global/SideSocial.svelte";
   import SideEmail from "../libs/Global/SideEmail.svelte";
+  import { onMount } from "svelte";
+  import Popup from "../libs/Global/Popup.svelte";
+
+  const url = "https://api.github.com/users/SwiichyCode/repos";
+  let data = [];
+
+  onMount(async () => {
+    const response = await fetch(`${url}`);
+    const repositories = await response.json();
+    data = repositories;
+  });
 </script>
 
 <div class="container">
-  <div class="cursor" />
-  <div class="cursor2" />
   <SideLink />
   <SideEmail />
   <Header />
   <Main />
+
+  {console.log(data)}
 </div>
 
 <style>

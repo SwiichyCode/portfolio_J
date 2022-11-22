@@ -15,7 +15,7 @@
     , je reste disponible pour toutes demandes.
   </p>
   <div>
-    <Button xl text="Mon github" />
+    <Button size="xl" text="Mon github" />
   </div>
 </section>
 
@@ -24,7 +24,8 @@
     display: flex;
     flex-direction: column;
     max-width: 64rem /* 1024px */;
-    min-height: 100vh;
+    min-height: calc(100vh - 300px);
+    padding-top: 50%;
     margin: 0 auto;
     font-family: sans-serif;
 
@@ -77,6 +78,7 @@
       color: #8892b0;
       margin-top: 1.25rem /* 20px */;
       margin-bottom: 1rem /* 16px */;
+      padding-bottom: 1rem;
       line-height: 1.5rem /* 24px */;
       a {
         color: #64ffda;
