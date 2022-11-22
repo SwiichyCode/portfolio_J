@@ -2,7 +2,6 @@
   import CardWorkInformation from "../../Main/CardWorkInformation.svelte";
   import { Tabs, TabList, TabPanel, Tab } from "./tabs.js";
   import { workedStore } from "../../../store/workedStore";
-  console.log(workedStore[0].body.length);
 
   const items = [
     "Upstatement",

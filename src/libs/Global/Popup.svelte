@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="alert-popup">
   <p>En construction 🚧</p>
 </div>

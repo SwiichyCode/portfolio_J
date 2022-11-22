@@ -22,7 +22,7 @@
   <Header />
   <Main />
 
-  {console.log(data)}
+  <!-- {console.log(data)} -->
 </div>
 
 <style>
