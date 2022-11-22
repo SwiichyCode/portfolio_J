@@ -4,9 +4,11 @@
 
 <style lang="scss">
   .alert-popup {
+    position: absolute;
+    top: 10%;
+    right: 5%;
     display: flex;
     max-width: 300px;
-    left: 10%;
     gap: 1em;
     border: 1px solid var(--green);
     padding: 1rem;
@@ -17,11 +19,11 @@
 
     @keyframes slideIn {
       from {
-        transform: translateY(-100px);
+        transform: translateX(100px);
         opacity: 0;
       }
       to {
-        transform: translateY(10%);
+        transform: translateX(15%);
         opacity: 1;
       }
     }

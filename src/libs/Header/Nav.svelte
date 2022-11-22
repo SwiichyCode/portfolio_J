@@ -12,7 +12,7 @@
 
 <nav>
   <ul class="header-nav">
-    <li><Popup /></li>
+    <!-- <li><Popup /></li> -->
     {#each items as { text, href }, index}
       <li class="nav-list">
         <a {href} class="flex items-center "

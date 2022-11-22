@@ -17,6 +17,7 @@
 </script>
 
 <div class="container">
+  <Popup />
   <SideLink />
   <SideEmail />
   <Header />
